@@ -1,0 +1,14 @@
+name: GamemodeChecker
+version: '1.0'
+main: com.koirdsuzu.gamemodechecker.GamemodeChecker
+api-version: '1.20'
+description: A plugin to check players' game modes.
+commands:
+  gamemodecheck:
+    description: Check a player's game mode or list all players by game mode.
+    usage: /gamemodecheck <MCID|*>
+    permission: gamemodecheck.use
+permissions:
+  gamemodecheck.use:
+    description: Allows use of the /gamemodecheck command.
+    default: op
